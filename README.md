@@ -23,3 +23,5 @@ I get all my traffic from [Googlarrrss](https://www.google.com/)
 
 
 *Important Information*
+
+Use this code for `print (i)` to display information on console. 
