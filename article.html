@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Bootstrap Blog Template">
+    <meta name="author" content="Vijaya Anand">
+    <title>Nermin's Blog</title>
+
+    <!--Bootstrap CSS files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="article.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="social_icons.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Nermin Kekic</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">YouTube</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 profile">
+                <aside>
+                    <img src="mascot.jpg" alt="Blog Mascot">
+                    <h4>
+                        Nermin Kekic
+                    </h4>
+                    <p>Software Developer @GE Healthcare</p>
+                    <hr>
+                    <p>Share This Blog</p>
+                    <!-- Add font awesome icons -->
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-google"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+
+                </aside>
+            </div>
+            <div class="col-md-8">
+                <article>
+                    <h1>First post on my blog.</h1>
+                    <p class="lead">We've read so many sad stories about communities that were fatally compromised or destroyed due to security
+                        exploits. We took that lesson to heart when we founded the Discourse project; we endeavor to build
+                        open source software that is secure and safe for communities by default, even if there are thousands,
+                        or millions, of them out there.
+                        <br>
+                        <br> However, we also value portability, the ability to get your data into and out of Discourse at will.
+                        This is why Discourse, unlike other forum software, defaults to a Creative Commons license. As a
+                        basic user on any Discourse you can easily export and download all your posts right from your user
+                        page.
+                    </p>
+                </article>
+                <div id="comments">
+                    <h2>Comments</h2>
+                    <div class="row">
+                        <div class="col-md-11">
+                            <p>However, we also value portability, the ability to get your data into and out of Discourse at
+                                will. This is why Discourse, unlike other forum software, defaults to a Creative Commons
+                                license.
+                            </p>
+                            <footer>
+                                <small>
+                                    <b>Nermin Kekic</b> Commented on: Feb 11 2017
+                                </small>
+                            </footer>
+                            <hr>
+                        </div>
+                        <div class="col-md-1 comment-num">01</div>
+                    </div>
+                    <form>
+                        <h3>Share your thoughts</h3>
+                        <p>
+                            <label class="sr-only">Message</label>
+                            <textarea class="form-control" id="message" placeholder="Message" required autocomplete="false"></textarea>
+                        </p>
+                        <p>
+                            <label class="sr-only">Full Name</label>
+                            <input type="text" class="form-control" placeholder="Full Name" required>
+
+                        </p>
+
+                        <p>
+                            <label class="sr-only">Email Address</label>
+                            <input type="email" class="form-control" placeholder="Email Address" required>
+
+                        </p>
+                        <p>
+                            <input type="button" class="btn btn-primary" value="Send Message">
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+        -- main content, blog posts --
+    </div>
+
+    <footer class="container">
+        -- copyright information --
+    </footer>
+
+    <!-- JQuery and Bootstrap script files -->
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

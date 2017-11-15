@@ -1,0 +1,17 @@
+.box {
+    border-style: solid;
+}
+
+
+/* Add 50px at the bootom of the page*/
+
+body {
+    margin-bottom: 50px;
+}
+
+
+/* Most posts section to right */
+
+.profile {
+    margin-right: 40px;
+}
