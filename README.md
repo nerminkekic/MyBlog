@@ -21,9 +21,5 @@ Testing code block
 
 I get all my traffic from [Google][]
 
-
-Links
------
-
 [Google]:   www.google.com/ "Google"
 
