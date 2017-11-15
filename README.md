@@ -19,10 +19,10 @@ Testing code block
         print (i)
 
 
-I get all my traffic from [Google]
+I get all my traffic from [Google][]
 
 
 Links
 -----
-[Google]:   www.google.com "Google"
+[Google]:   www.google.com/ "Google"
 
