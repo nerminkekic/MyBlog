@@ -1,4 +1,5 @@
-#My Blog Site Project
+My Blog Site Project
+====================
 
 I am going to be creating new blog site for me. This repo will serve to keep version controll of the project. 
 
