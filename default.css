@@ -19,11 +19,10 @@ body {
 
 /* Adding font properties to side bar */
 
-.profile aside ul li a {
+ul li a {
     display: block;
-    font-size: 25px;
-    text-decoration: none;
-    color: #E8E8E8;
+    font-size: 20px;
+    color: black;
     padding: 8px 16px;
     margin: 0;
 }
@@ -33,14 +32,17 @@ body {
 
 li a:hover {
     color: white;
-    background-color: black;
+    background-color: #555;
+    text-decoration: none;
 }
 
 
 /*Create margin of 50 pixels at the top of website */
 
 .brandName {
-    margin-top: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 30px;
 }
 
 
@@ -48,7 +50,7 @@ li a:hover {
 
 ul {
     list-style-type: none;
-    background-color: #5F5F5F;
+    background-color: #f1f1f1;
     width: 100%;
     padding: 0;
 }
